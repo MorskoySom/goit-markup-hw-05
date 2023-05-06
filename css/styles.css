@@ -610,7 +610,8 @@ img {
   overflow: hidden;
 }
 
-.link-container-dp:hover .overlay {
+.link-container-dp:hover,
+.link-container-dp:focus .overlay {
   transform: translateY(0%);
 }
 
