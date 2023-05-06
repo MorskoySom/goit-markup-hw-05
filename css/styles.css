@@ -153,10 +153,12 @@ img {
   position: relative;
   font-weight: 500;
   color: var(--color-navy-blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-address {
   color: var(--color-slate);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-font {
@@ -168,6 +170,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--iris-color);
   margin-right: 76px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-link {
@@ -256,6 +260,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -363,6 +369,7 @@ img {
   height: 100%;
   background-color: var(--iris-color);
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item {
@@ -408,6 +415,8 @@ img {
   height: 100%;
   fill: var(--color-light-slate);
   color: var(--color-light-slate);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .color-clients {
@@ -417,6 +426,7 @@ img {
 /* .color-clients:hover,
 .color-clients:focus {
   fill: var(--ocean-color);
+  cubic-bezier(0.4, 0, 0.2, 1)
 } */
 
 .client-link-active:hover,
@@ -497,6 +507,7 @@ img {
   background-color: var(--iris-color);
   border-radius: 50%;
   gap: 16px;
+  transition: background-color 250mscubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer {
